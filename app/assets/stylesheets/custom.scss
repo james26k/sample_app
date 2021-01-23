@@ -5,6 +5,7 @@
 
 body {
   padding-top: 60px;
+  background-color: #17202A;
 }
 
 section {
@@ -17,10 +18,26 @@ textarea {
 
 .center {
   text-align: center;
+  background-color: #17202a;
+  border: 1px solid;
+  border-color: #777;
 }
 
 .center h1 {
   margin-bottom: 10px;
+}
+
+#home-h1 {
+  color: #fff;
+}
+
+#home-h2 {
+  color: #fff;
+}
+
+.btn {
+  background-color: #00acee;
+  border-color: #00acee;
 }
 
 /* typography */
@@ -51,6 +68,19 @@ p {
 }
 
 /* header */
+
+#header {
+  background-color: #17202A;
+  border-bottom-color: #777;
+}
+
+#navbutton {
+  color: #fff;
+}
+
+#navbutton:hover {
+  color: #777;
+}
 
 #logo {
   float: left;
